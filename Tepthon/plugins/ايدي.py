@@ -40,9 +40,9 @@ LOGS = logging.getLogger(__name__)
 ZED_TEXT = gvarstatus("CUSTOM_ALIVE_TEXT") or "•⎚• مـعلومـات المسـتخـدم مـن بـوت ريبثون"
 ZEDM = gvarstatus("CUSTOM_ALIVE_EMOJI") or "✦ "
 ZEDF = gvarstatus("CUSTOM_ALIVE_FONT") or "⋆─┄─┄─┄─ alz─┄─┄─┄─⋆"
-zed_dev = (6700336976, 6384953499, 1991212284)
-zel_dev = (6700336976, 6384953499, 1991212284)
-zelzal = (6700336976, 6384953499)
+zed_dev = (7118337980, 6384953499, 1991212284)
+zel_dev = (7118337980, 6384953499, 1991212284)
+zelzal = (7118337980, 6384953499)
 
 
 async def get_user_from_event(event):
