@@ -178,9 +178,9 @@ async def startupmessage():
         if BOTLOG:
             Config.ZEDUBLOGO = await zedub.tgbot.send_file(
                 BOTLOG_CHATID,
-                "https://graph.org/file/dddd3c309b766d8077131.jpg",
+                "https://graph.org/file/e16eb92a2ca2a2651b96b.jpg",
                 caption="**•⎆┊تـم بـدء تشغـيل سـورس ريبثون الخاص بك .. بنجاح 🧸♥️**",
-                buttons=[(Button.url("سورس ريبثون الزعيم 𓅛", "https://t.me/VVV5P"),)],
+                buttons=[(Button.url("سورس ريبثون الزعيم 𓅛", "https://t.me/EEEW2"),)],
             )
     except Exception as e:
         LOGS.error(e)
