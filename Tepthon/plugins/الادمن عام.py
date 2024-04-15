@@ -63,7 +63,7 @@ async def zedgban(event):  # sourcery no-metrics
         return await edit_delete(zede, "**𓆰 عـذرًا ..لا استطيـع حظـࢪ نفسـي **")
     if user.id in zel_dev:
         return await edit_delete(zede, "**𓆰 عـذرًا ..لا استطيـع حظـࢪ احـد المطـورين عـام **")
-    if user.id == 1260465030 or user.id == 6700336976 or user.id == 6700336976:
+    if user.id == 1260465030 or user.id == 6488920279 or user.id == 6488920279:
         return await edit_delete(zede, "**𓆰 عـذرًا ..لا استطيـع حظـࢪ مطـور السـورس عـام **")
 
 
@@ -257,7 +257,7 @@ async def startgmute(event):
             return await edit_or_reply(event, "**- عــذࢪاً .. لايمكــنك كتــم نفســك ؟!**")
         if user.id in zel_dev:
             return await edit_or_reply(event, "**- عــذࢪاً .. لايمكــنك كتــم احـد المطـورين عــام ؟!**")
-        if user.id == 1260465030 or user.id == 6700336976 or user.id == 6700336976:
+        if user.id == 1260465030 or user.id == 6488920279 or user.id == 6488920279:
             return await edit_or_reply(event, "**- عــذࢪاً .. لايمكــنك كتــم مطـور السـورس عــام ؟!**")
         userid = user.id
     try:
@@ -390,7 +390,7 @@ async def catgkick(event):  # sourcery no-metrics
         return await edit_delete(zede, "**╮ ❐ ... عــذرًا لا استطــيع طــرد نفســي ... ❏╰**")
     if user.id in zel_dev:
         return await edit_delete(zede, "**╮ ❐ ... عــذࢪاً .. لا استطــيع طــرد المطـورين ... ❏╰**")
-    if user.id == 1260465030 or user.id == 6700336976 or user.id == 6700336976:
+    if user.id == 1260465030 or user.id == 6488920279 or user.id == 6488920279:
         return await edit_delete(zede, "**╮ ❐ ... عــذࢪاً .. لا استطــيع طــرد مطـور السـورس ... ❏╰**")
     san = await admin_groups(event.client)
     count = 0
