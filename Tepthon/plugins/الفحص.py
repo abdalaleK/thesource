@@ -89,7 +89,7 @@ zed_temp = """{ALIVE_TEXT}
 **{Z_EMOJI} وقـت التشغيـل : ** `{uptime}`
 **{Z_EMOJI} تاريــخ التنصيـب : ** `{zedda}`
 **{Z_EMOJI} المالـك : ** {mention}
-**{Z_EMOJI} قنـاة الـسـورس :** [اضغـط هنـا](https://t.me/VVV5P)"""
+**{Z_EMOJI} قنـاة الـسـورس :** [اضغـط هنـا](https://t.me/EEEW2)"""
 
 
 @zedub.zed_cmd(
@@ -109,7 +109,7 @@ async def amireallyialive(event):
     zed_caption = "** بـوت تيبثـون surs alzaeim يعمـل بنجـاح ☑️ .. **\n"
     zed_caption += f"**{Z_EMOJI} إصــدار تليثـون : ** `{version.__version__}\n`"
     zed_caption += f"**{Z_EMOJI} إصــدار ريبثون : ** `{tepversion}`\n"
-    zed_caption += f"**{Z_EMOJI} إصــدار بايـثـون : ** `{python_version()}\n`"
+    zed_caption += f"**{Z_EMOJI} إصــدار الزعيم : ** `{python_version()}\n`"
     zed_caption += f"**{Z_EMOJI} المالـك : ** {mention}\n"
     results = await event.client.inline_query(Config.TG_BOT_USERNAME, zed_caption)
     await results[0].click(event.chat_id, reply_to=reply_to_id, hide_via=True)
