@@ -465,13 +465,13 @@ async def admem(event):
 )
 async def _(event):
     "To get list of admins."
-    mentions = "𓆩 𝑺𝑶𝑼𝑹𝑪𝑬 𝗧𝞝𝗣𝙏𝙃𝙊𝙉 𝑮𝑹𝑶𝑼𝑷 𝑫𝑨𝑻𝑨 𓆪\n** ⪼ المشرفـون في ۿذه المجموعه :** \n"
+    mentions = "𓆩 سورس 𓆩𖡡𓏺.𝑨𝑳𝒁𝑨𝑰𝑴.𓏺𖡡𓆪\n** ⪼ المشرفـون في ۿذه المجموعه :** \n"
     reply_message = await reply_id(event)
     input_str = event.pattern_match.group(1)
     to_write_chat = await event.get_input_chat()
     chat = None
     if input_str:
-        mentions = f"𓆩 𝑺𝑶𝑼𝑹𝑪𝑬 𝗧𝞝𝗣𝙏𝙃𝙊𝙉 𝑮𝑹𝑶𝑼𝑷 𝑫𝑨𝑻𝑨 𓆪\n** ⪼ المشرفـون في {input_str} :** \n"
+        mentions = f"𓆩 𝑺𝑶𝑼𝑹𝑪𝑬𓆩𖡡𓏺.𝑨𝑳𝒁𝑨𝑰𝑴.𓏺𖡡𓆪 𓆪\n** ⪼ المشرفـون في {input_str} :** \n"
         try:
             chat = await event.client.get_entity(input_str)
         except Exception as e:
