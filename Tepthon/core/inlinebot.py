@@ -314,10 +314,10 @@ async def inline_handler(event):  # sourcery no-metrics
     else:
         buttons = [
             (
-                Button.url("قنـاة السـورس", "https://t.me/VVV5P"),
+                Button.url("قنـاة السـورس", "https://t.me/EE76661"),
                 Button.url(
                     "مطـور السـورس",
-                    "https://t.me/T_5_G",
+                    "https://t.me/@EE77n",
                 ),
             )
         ]
@@ -331,9 +331,9 @@ async def inline_handler(event):  # sourcery no-metrics
         result = types.InputBotInlineResult(
             id=str(uuid4()),
             type="photo",
-            title="سورس الزعيم 𓅛",
+            title=" 𝐒𝐨𝐮𝐫𝐜𝐞 𝐑𝐞𝐩𝐭𝐡𝐨𝐧𝐞 𓅛",
             description="روابـط التنصـيب",
-            url="https://t.me/VVV5P",
+            url="https://t.me/EE76661",
             thumb=photo,
             content=photo,
             send_message=types.InputBotInlineMessageMediaAuto(
