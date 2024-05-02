@@ -137,7 +137,7 @@ async def mybot(): # By T.me/E_7_V
             await asyncio.sleep(1)
             await bot.send_message("@BotFather", botname)
             await asyncio.sleep(1)
-            await bot.send_message("@BotFather", "ᯓ𓆩𖡡𓏺.𝑨𝑳𝒁𝑨𝑰𝑴.𓏺𖡡𓆪 🚬")
+            await bot.send_message("@BotFather", "𝐑𝐞𝐩𝐭𝐡𝐨𝐧")
             await asyncio.sleep(3)
             await bot.send_message("@BotFather", "/setname")
             await asyncio.sleep(1)
@@ -180,7 +180,7 @@ async def startupmessage():
                 BOTLOG_CHATID,
                 "https://graph.org/file/e16eb92a2ca2a2651b96b.jpg",
                 caption="**•⎆┊تـم بـدء تشغـيل سـورس ريبثون الخاص بك .. بنجاح 🧸♥️**",
-                buttons=[(Button.url("سورس  ᯓ𓆩𖡡𓏺.𝑨𝑳𝒁𝑨𝑰𝑴.𓏺𖡡𓆪 𓅛", "https://t.me/EEEW2"),)],
+                buttons=[(Button.url("𝐒𝐨𝐮𝐫𝐜𝐞 𝐑𝐞𝐩𝐭𝐡𝐨𝐧𝐞", "https://t.me/EEEW2"),)],
             )
     except Exception as e:
         LOGS.error(e)
