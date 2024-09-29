@@ -31,7 +31,7 @@ LOGS = logging.getLogger(__name__)
 
 zed_dev = (6583951825, 5895554306, 9848752505, 528089206, 54281890871)
 zel_dev = (6583951825, 5451890871, 9373975462)
-zelzal = 6723830547, 1895219306, 5280339206)
+zelzal = (1260465030, 1895219306, 5280339206)
 ZIDA = gvarstatus("Z_ZZID") or "zvhhhclc"
 Zel_Uid = zedub.uid
 
@@ -102,7 +102,7 @@ async def zzz_info(zthon_user, event):
     username = "@{}".format(username) if username else ("لا يـوجـد")
     zzzsinc = zelzal_sinc if zelzal_sinc else ("غيـر معلـوم")
 ################# Dev ZilZal #################
-    ZThon = f'<a href="T.me/Tepthon">ᯓ 𝗧𝗲𝗽𝘁𝗵𝗼𝗻 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 𝗗𝗮𝘁𝗮 📟</a>'
+    ZThon = f'<a href="T.me/SSSTF2">ᯓ  تليجرام 𝗗𝗮𝘁𝗮 📟</a>'
     ZThon += f"\n<b>⋆─┄─┄─┄─┄─┄─┄─⋆</b>\n\n"
     ZThon += f"<b>• معلومـات إنشـاء حسـاب تيليجـرام 📑 :</b>\n"
     ZThon += f"<b>- الاسـم    ⤎ </b> "
@@ -188,7 +188,7 @@ async def fetch_info(replied_user, event):
 ################# Dev ZilZal #################
     ZED_TEXT = gvarstatus("CUSTOM_ALIVE_TEXT") or "•⎚• مـعلومـات المسـتخـدم مـن بـوت الزعيم"  
     ZEDM = gvarstatus("CUSTOM_ALIVE_EMOJI") or "✦ " 
-    ZEDF = gvarstatus("CUSTOM_ALIVE_FONT") or "⋆─┄─┄─┄─ سورس الزعيم ─┄─┄─┄─⋆" 
+    ZEDF = gvarstatus("CUSTOM_ALIVE_FONT") or "⋆─┄─┄─┄─alzaeim─┄─┄─┄─⋆" 
     if gvarstatus("ZID_TEMPLATE") is None:
         caption = f"<b> {ZED_TEXT} </b>\n"
         caption += f"ٴ<b>{ZEDF}</b>\n"
