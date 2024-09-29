@@ -186,9 +186,9 @@ async def fetch_info(replied_user, event):
     else:
         rotbat = "العضـو 𓅫"
 ################# Dev ZilZal #################
-    ZED_TEXT = gvarstatus("CUSTOM_ALIVE_TEXT") or "•⎚• مـعلومـات المسـتخـدم مـن بـوت تيبثـون"  
+    ZED_TEXT = gvarstatus("CUSTOM_ALIVE_TEXT") or "•⎚• مـعلومـات المسـتخـدم مـن بـوت الزعيم"  
     ZEDM = gvarstatus("CUSTOM_ALIVE_EMOJI") or "✦ " 
-    ZEDF = gvarstatus("CUSTOM_ALIVE_FONT") or "⋆─┄─┄─┄─ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 ─┄─┄─┄─⋆" 
+    ZEDF = gvarstatus("CUSTOM_ALIVE_FONT") or "⋆─┄─┄─┄─ سورس الزعيم ─┄─┄─┄─⋆" 
     if gvarstatus("ZID_TEMPLATE") is None:
         caption = f"<b> {ZED_TEXT} </b>\n"
         caption += f"ٴ<b>{ZEDF}</b>\n"
