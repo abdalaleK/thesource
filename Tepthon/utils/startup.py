@@ -170,7 +170,7 @@ async def mybot(): #Code by T.me/zzzzl1l
             await asyncio.sleep(1)
             await bot.send_message("@BotFather", botname)
             await asyncio.sleep(1)
-            await bot.send_message("@BotFather", f"•⎆┊انـا البــوت المسـاعـد الخــاص بـ {zel_zal} \n•⎆┊بـواسطـتـي يمكـنك التواصــل مـع مـالكـي 🧸♥️\n•⎆┊قنـاة السـورس 🌐 @Tepthon 🌐")
+            await bot.send_message("@BotFather", f"•⎆┊انـا البــوت المسـاعـد الخــاص بـ {zel_zal} \n•⎆┊بـواسطـتـي يمكـنك التواصــل مـع مـالكـي 🧸♥️\n•⎆┊جروب الزعيم 🌐 @EEEW2 🌐")
         except Exception as e:
             print(e)
 
@@ -189,7 +189,7 @@ async def startupmessage():
                 BOTLOG_CHATID,
                 "https://telegra.ph/file/b920419da499a55479a15.jpg",
                 caption="**•⎆┊تـم بـدء تشغـيل سـورس الزعيم الخاص بك .. بنجاح 🧸♥️**",
-                buttons=[(Button.url("𝐬𝐨𝐮𝐫𝐜𝐞 𝐭𝐞𝐩𝐭𝐡𝐨𝐧 🇵🇸", "https://t.me/EEEW2"),)],
+                buttons=[(Button.url("سورس الزعيم 🇵🇸", "https://t.me/EEEW2"),)],
             )
     except Exception as e:
         LOGS.error(e)
