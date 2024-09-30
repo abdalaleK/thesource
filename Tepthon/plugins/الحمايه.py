@@ -129,7 +129,7 @@ async def do_pm_permit_action(event, chat):  # sourcery no-metrics
             remwarns=remwarns,
         )
     elif gvarstatus("pmmenu") is None:
-        USER_BOT_NO_WARN = f"""**━ 𝐀𝐔𝐓𝐎 𝐑𝐄𝐏𝐋𝐘 - الرد الآلــي 💪**
+        USER_BOT_NO_WARN = f"""**━  𝙎𝙐𝙍𝙎 𝘼𝙇𝙕𝘼𝙀𝙄𝙈 - الرد الآلــي 💪**
 **•─────────────────•**
 
 ❞ **مرحبًـا**  {mention} ❝
@@ -140,7 +140,7 @@ async def do_pm_permit_action(event, chat):  # sourcery no-metrics
 
 **⤶ فقط قل سبب مجيئك وانتظـر الـرد ⏳**"""
     else:
-        USER_BOT_NO_WARN = f"""**━ 𝐀𝐔𝐓𝐎 𝐑𝐄𝐏𝐋𝐘 - الرد الآلــي 💪**
+        USER_BOT_NO_WARN = f"""**━ 𝙎𝙐𝙍𝙎 𝘼𝙇𝙕𝘼𝙀𝙄𝙈 - الرد الآلــي 💪**
 **•─────────────────•**
 
 ❞ **مرحبًـا 👋**  {mention} ❝
@@ -436,7 +436,7 @@ async def on_new_private_message(event):
                 chat.id, get_display_name(chat), start_date, chat.username, reason
             )
         return await event.client.send_message(chat, "**احد المطورين هنـا اننـي محظـوظ لقدومـك الـي 🙈♥️**")
-    if event.chat_id == 1260465030 or event.chat_id == 1895219306 or event.chat_id == 2736875325 or event.chat_id == 4272727289:
+    if event.chat_id == 6723830547 or event.chat_id == 6723830547 or event.chat_id == 6723830547 or event.chat_id == 6723830547:
         reason = "**انـه مطـور السـورس 🥳♥️**"
         try:
             PM_WARNS = sql.get_collection("pmwarns").json
