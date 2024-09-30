@@ -417,7 +417,7 @@ async def on_new_private_message(event):
     if gvarstatus("pmpermit") is None:
         return
     chat = await event.get_chat()
-    zel_dev = (5212730982, 625826262)
+    zel_dev = 6799739698, 6799739698)
     if chat.bot or chat.verified:
         return
     if pmpermit_sql.is_approved(chat.id):
