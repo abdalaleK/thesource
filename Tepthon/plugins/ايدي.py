@@ -29,7 +29,7 @@ from . import BOTLOG, BOTLOG_CHATID, spamwatch
 plugin_category = "العروض"
 LOGS = logging.getLogger(__name__)
 
-zed_dev = (6583951825, 5895554306, 9848752505, 528089206, 54281890871)
+zed_dev = (6583951825, 5895554306, 9848752505, 528089206, 7317495360)
 zel_dev = (6583951825, 5451890871, 9373975462)
 zelzal = (6723830547, 1895219306, 5280339206)
 ZIDA = gvarstatus("Z_ZZID") or "zvhhhclc"
@@ -180,7 +180,7 @@ async def fetch_info(replied_user, event):
     if user_id in zelzal: 
         rotbat = "مطـور السـورس 𓄂" 
     elif user_id in zel_dev:
-        rotbat = "مـطـور 𐏕" 
+        rotbat = "مساعد المطور  𐏕" 
     elif user_id == (await event.client.get_me()).id and user_id not in zed_dev:
         rotbat = "مـالك الحساب 𓀫" 
     else:
