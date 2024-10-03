@@ -376,7 +376,7 @@ async def watcher(event):
 
 @zedub.zed_cmd(pattern=f"{MUTE}(?:\s|$)([\s\S]*)")
 async def startmute(event):
-    KTM_IMG = gvarstatus("KTM_PIC") or "https://graph.org/file/583151566478260c9ed82.jpg"
+    KTM_IMG = gvarstatus("KTM_PIC") or ""
     if event.is_private:
         input_str = event.pattern_match.group(1)
         if input_str == "عام":
