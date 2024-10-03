@@ -34,7 +34,7 @@ async def amireallyalive(event):
     boot_time_timestamp = psutil.boot_time()
     bt = datetime.fromtimestamp(boot_time_timestamp)
     start = datetime.now()
-    zedevent = await edit_or_reply(event, "**✦ جـاري فحـص تنصيبـك لـ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 ⌬ . .**")
+    zedevent = await edit_or_reply(event, "**✦ جـاري فحـص تنصيبـك لـ سورس الزعيم ⌬ . .**")
     end = datetime.now()
     ms = (end - start).microseconds / 1000
     _, check_sgnirts = check_data_base_heal_th()
@@ -45,7 +45,7 @@ async def amireallyalive(event):
     else:
         zedda = f"{bt.year}/{bt.month}/{bt.day}"
     Z_EMOJI = gvarstatus("ALIVE_EMOJI") or "⎆╿"
-    ALIVE_TEXT = gvarstatus("ALIVE_TEXT") or "** بـوت تيبثـون 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 يعمـل بنجـاح ☑️ .. **"
+    ALIVE_TEXT = gvarstatus("ALIVE_TEXT") or "** بـوت الزعيم سورس عمكم يعمـل بنجـاح ☑️ .. **"
     ZED_IMG = gvarstatus("ALIVE_PIC")
     zed_caption = gvarstatus("ALIVE_TEMPLATE") or zed_temp
     caption = zed_caption.format(
@@ -90,7 +90,7 @@ zed_temp = """{ALIVE_TEXT}
 **{Z_EMOJI} منصـة التنصيب :** `ᕼᗴᖇOKᑌ`
 **{Z_EMOJI} تاريــخ التنصيـب : ** `{zedda}`
 **{Z_EMOJI} المالـك : ** {mention}
-**{Z_EMOJI} قنـاة الـسـورس :** [اضغـط هنـا](https://t.me/Tepthon)"""
+**{Z_EMOJI} قنـاة الـسـورس :** [اضغـط هنـا](https://t.me/SSSTF2)"""
 
 
 @zedub.zed_cmd(
@@ -107,9 +107,9 @@ async def amireallyialive(event):
     "A kind of showing bot details by your inline bot"
     reply_to_id = await reply_id(event)
     Z_EMOJI = gvarstatus("ALIVE_EMOJI") or "⎆╿"
-    zed_caption = "** بـوت تيبثـون 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 يعمـل بنجـاح ☑️ .. **\n"
+    zed_caption = "** بـوت سورس الزعيم  يعمـل بنجـاح ☑️ .. **\n"
     zed_caption += f"**{Z_EMOJI} إصــدار تليثـون : ** `{version.__version__}\n`"
-    zed_caption += f"**{Z_EMOJI} إصــدار تيبثــون : ** `{tepversion}`\n"
+    zed_caption += f"**{Z_EMOJI} إصــدار الزعيم : ** `{tepversion}`\n"
     zed_caption += f"**{Z_EMOJI} إصــدار بايـثـون : ** `{python_version()}\n`"
     zed_caption += f"**{Z_EMOJI} المالـك : ** {mention}\n"
     results = await event.client.inline_query(Config.TG_BOT_USERNAME, zed_caption)
