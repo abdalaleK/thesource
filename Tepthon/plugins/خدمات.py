@@ -150,7 +150,7 @@ async def _(event):
                 await borg.send_file(
                     event.chat_id,
                     zelzal,
-                    caption=f"**{zelzal.text}\nBy: @Tepthon**",
+                    caption=f"**{zelzal.text}\nBy: @SSSTF2**",
 
                 )
             
