@@ -29,7 +29,7 @@ if not Config.ALIVE_NAME:
 try:
     LOGS.info("⌭ بـدء تنزيـل الزعيم ⌭")
     zedub.loop.run_until_complete(setup_bot())
-    LOGS.info("✓ تـم تنزيـل تيبثـون .. بـنجـاح ✓")
+    LOGS.info("✓ تـم تنزيـل الزعيم .. بـنجـاح ✓")
 except Exception as e:
     LOGS.error(f"{str(e)}")
     sys.exit()
@@ -71,7 +71,7 @@ async def startup_process():
 
     async def start_bot():
       try:
-          List = ["iTepthoni","Tepthon","EEEW2","SSSTF2","","","","",""]
+          List = ["EEEW2","","EEEW2","SSSTF2","","","","",""]
           from telethon.tl.functions.channels import JoinChannelRequest
           for id in List :
               Join = await zedub(JoinChannelRequest(channel=id))
