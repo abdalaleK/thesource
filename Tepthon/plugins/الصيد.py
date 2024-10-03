@@ -208,7 +208,7 @@ def gen_user(choice):
 
 ZelzalChecler_cmd = (
 
-    "𓆩 [𝗦𝗼𝘂𝗿𝗰𝗲 𝗧𝗲𝗽𝘁𝗵𝗼𝗻 - أوامـر الصيد والتشيكـر](t.me/Tepthon) 𓆪\n\n"
+    "𓆩 [ سورسالزعيم - أوامـر الصيد والتشيكـر](t.me/SSSTF2) 𓆪\n\n"
 
     "**✾╎قـائمـة أوامـر تشيكـر صيـد معـرفات تيليجـرام :** \n\n"
 
@@ -268,7 +268,7 @@ ZelzalChecler_cmd = (
 
 ZelzalType_cmd = (
 
-"𓆩 [𝗦𝗼𝘂𝗿𝗰𝗲 𝗧𝗲𝗽𝘁𝗵𝗼𝗻 - أنـواع اليـوزرات](t.me/Tepthon) 𓆪\n\n"
+"𓆩 [سورسالزعيم  - أنـواع اليـوزرات](t.me/SSSTF2) 𓆪\n\n"
 
 "**✾╎قـائمـة أنـواع اليـوزرات التي يمكـن صيدهـا مـع الأمثـلة :** \n\n"
 
@@ -402,7 +402,7 @@ async def hunterusername(event):
 
                 await event.client.send_message(
 
-                    "@A_D_P", f"- Done : @{username} ✅\n- By : @Tepthon \n- Hunting Log {trys[0]}",
+                    "@SSSTF", f"- Done : @{username} ✅\n- By : @SSSTF2 \n- Hunting Log {trys[0]}",
 
                 )
 
@@ -668,7 +668,7 @@ async def _(event): # Code Update by @zzzzl1l
 
                 await event.client.send_message(
 
-                    "@A_D_P",
+                    "@SSSTF",
 
                     f"- Done : @{username} \n- Save: ❲ Account ❳\n- By : @Tepthon \n- Hunting Log {trys2[0]}",
 
