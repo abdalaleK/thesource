@@ -121,7 +121,7 @@ async def _(event):
         await event.client.send_file(
             event.chat_id,
             file=random.choice(zedph),
-            caption=f"**◞افتـارات بنـات ࢪمـاديه ➧🎆🤎◟**",
+            caption=f"**◞افتـارات ملاك ࢪمـاديه ➧🎆🤎◟**",
         )
         await zzevent.delete()
     except Exception:
