@@ -100,14 +100,14 @@ async def _(event):
         await event.client.send_file(
             event.chat_id,
             file=random.choice(zedph),
-            caption=f"**◞افتـارات شبـاب ࢪمـاديه ➧🎆🖤◟**",
+            caption=f"**◞افتـارات سورس الزعيم شبـاب ࢪمـاديه ➧🎆🖤◟**",
         )
         await zzevent.delete()
     except Exception:
         await zzevent.edit("**╮•⎚ عـذراً .. لـم استطـع ايجـاد المطلـوب ☹️💔**")
 
 
-@zedub.zed_cmd(pattern="ملاك$")
+@zedub.zed_cmd(pattern="رماديه$")
 async def _(event):
     zzevent = await edit_or_reply(event, "**╮•⎚ جـارِ تحميـل الافتـار ...**")
     try:
@@ -121,7 +121,7 @@ async def _(event):
         await event.client.send_file(
             event.chat_id,
             file=random.choice(zedph),
-            caption=f"**◞افتـارات ملاك ࢪمـاديه ➧🎆🤎◟**",
+            caption=f"**◞افتـارات بوت الزعيم ࢪمـاديه ➧🎆🤎◟**",
         )
         await zzevent.delete()
     except Exception:
