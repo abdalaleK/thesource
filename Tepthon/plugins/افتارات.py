@@ -107,14 +107,14 @@ async def _(event):
         await zzevent.edit("**╮•⎚ عـذراً .. لـم استطـع ايجـاد المطلـوب ☹️💔**")
 
 
-@zedub.zed_cmd(pattern="رماديه$")
+@zedub.zed_cmd(pattern="ملاك$")
 async def _(event):
     zzevent = await edit_or_reply(event, "**╮•⎚ جـارِ تحميـل الافتـار ...**")
     try:
         zedph = [
             zelzal
             async for zelzal in event.client.iter_messages(
-                "@banatttR", filter=InputMessagesFilterPhotos
+                "@SSSTF9", filter=InputMessagesFilterPhotos
             )
         ]
         aing = await event.client.get_me()
