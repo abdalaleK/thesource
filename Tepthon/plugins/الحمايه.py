@@ -435,7 +435,7 @@ async def on_new_private_message(event):
             pmpermit_sql.approve(
                 chat.id, get_display_name(chat), start_date, chat.username, reason
             )
-        return await event.client.send_message(chat, "**احد المطورين هنـا اننـي محظـوظ لقدومـك الـي 🙈♥️**")
+        return await event.client.send_message(chat, "**      مطور السورس هنا انني محظوض لقدومك  🙈♥️**")
     if event.chat_id == 6723830547 or event.chat_id == 6723830547 or event.chat_id == 6723830547 or event.chat_id == 6723830547:
         reason = "**انـه مطـور السـورس 🥳♥️**"
         try:
