@@ -71,7 +71,7 @@ async def sddm(event):
         sender = await event.get_sender()
         chat = await event.get_chat()
         pic = await event.download_media()
-        await zedub.send_file("me", pic, caption=f"[ᯓ 𝗦𝗼𝘂𝗿𝗰𝗲 - حفـظ الذاتـيـة ♥️](t.me/Tepthon) .\n\n⋆┄─┄─┄─┄┄─┄─┄─┄─┄┄⋆\n**⌔╎مࢪحبـًا عـزيـزي المـالك 🫂\n⌔╎ تـم حفـظ الذاتيـة تلقائيـًا .. بنجـاح ☑️** ❝\n**⌔╎المـرسـل** {_format.mentionuser(sender.first_name , sender.id)} .")
+        await zedub.send_file("me", pic, caption=f"[ᯓ 𝗦𝗼𝘂𝗿𝗰𝗲 - حفـظ الذاتـيـة ♥️](t.me/SSSTF) .\n\n⋆┄─┄─┄─┄┄─┄─┄─┄─┄┄⋆\n**⌔╎مࢪحبـًا عـزيـزي المـالك 🫂\n⌔╎ تـم حفـظ الذاتيـة تلقائيـًا .. بنجـاح ☑️** ❝\n**⌔╎المـرسـل** {_format.mentionuser(sender.first_name , sender.id)} .")
 
 @zedub.zed_cmd(
     pattern="تست (\d*) ([\s\S]*)",
