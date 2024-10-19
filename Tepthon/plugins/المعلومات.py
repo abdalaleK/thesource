@@ -188,7 +188,7 @@ async def _(event):
 @zedub.zed_cmd(pattern="تاريخ التنصيب$")
 async def zeddd(event):
     uname = platform.uname()
-    zedt = "**- تاريخ تنصيبـك لـ بـوت تيبثـــون - 𓆩𝙎𝙊𝙐𝙍𝘾𝞝 𝙏𝞝𝙋 𓆪**\n\n"
+    zedt = "**- تاريخ تنصيبـك لـ بـوت الزعيم - 𓆩𝙎𝙊𝙐𝙍𝘾𝞝 Z𝞝Z 𓆪**\n\n"
     uptime = await get_readable_time((time.time() - StartTime))
     boot_time_timestamp = psutil.boot_time()
     bt = datetime.fromtimestamp(boot_time_timestamp)
