@@ -16,8 +16,8 @@ OFFLINE_TAG = "ᴍᴏʜᴀᴍᴍᴀᴅ 𓅃"
 
 
 @zedub.zed_cmd(
-    pattern="اسمي محمد$",
-    command=("اسمي محمد", plugin_category),
+    pattern="اسمي عبدالعالم$",
+    command=("اسمي عبدالعالم", plugin_category),
     info={
         "header": "To your status as offline",
         "description": " it change your pic as offline, and add offline tag in name.",
@@ -56,7 +56,7 @@ async def pussy(event):
             last_name=first_name, first_name=tag_name
         )
     )
-    await edit_delete(event, f"**`{tag_name} {first_name}`\nانا أنا اسمي محمد.**")
+    await edit_delete(event, f"**`{tag_name} {first_name}`\nانا أنا اسمي عبدالعالم.**")
 
 
 @zedub.zed_cmd(
