@@ -189,7 +189,7 @@ async def startupmessage():
                 BOTLOG_CHATID,
                 "https://graph.org/file/e16eb92a2ca2a2651b96b.jpg",
                 caption="**•⎆┊تـم بـدء تشغـيل سـورس الزعيم الخاص بك .. بنجاح 🧸♥️**",
-                buttons=[(Button.url("سورس الزعيم 🇵🇸", "https://t.me/EEEW2"),)],
+                buttons=[(Button.url("سورس الزعيم 🇵🇸", "https://t.me/SSSTF0"),)],
             )
     except Exception as e:
         LOGS.error(e)
