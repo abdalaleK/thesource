@@ -44,7 +44,7 @@ ENV = bool(os.environ.get("ENV", False))
 LOGS = logging.getLogger("𝐬𝐨𝐮𝐫𝐜𝐞 الزعيم 🇵🇸")
 cmdhr = Config.COMMAND_HAND_LER
 Zed_Vip = (6723830547, 6583951825)
-zchannel = {"@SSSTF2", "@EEEW2", "", "@EEEW2", "@SSSTF2"}
+zchannel = {"@SSSTF2", "@SSSTF0", "", "@SSSTF0", "@SSSTF2"}
 heroku_api = "https://api.heroku.com"
 if Config.HEROKU_APP_NAME is not None and Config.HEROKU_API_KEY is not None:
     Heroku = heroku3.from_key(Config.HEROKU_API_KEY)
